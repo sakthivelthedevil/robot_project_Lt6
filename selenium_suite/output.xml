@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220505 10:20:46.871" rpa="false" schemaversion="3">
+<suite id="s1" name="Selenium Suite" source="C:\Users\Sakthivel\Desktop\LT6\robot_project\selenium_suite">
+<suite id="s1-s1" name="Demo1 Suite" source="C:\Users\Sakthivel\Desktop\LT6\robot_project\selenium_suite\demo1_suite.robot">
+<test id="s1-s1-t1" name="TC1" line="6">
+<kw name="Append To Environment Variable" library="OperatingSystem">
+<arg>path</arg>
+<arg>C:\\Users\\Sakthivel\\Desktop\\LT6\\driver</arg>
+<doc>Appends given ``values`` to environment variable ``name``.</doc>
+<msg timestamp="20220505 10:20:47.214" level="INFO">Environment variable 'path' set to value 'C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\Sakthivel;C:\Users\Sakthivel\Scripts\;C:\Users\Sakthivel\;C:\Users\Sakthivel\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sakthivel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\pycharm\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Sakthivel\Desktop\LT6\driver'.</msg>
+<status status="PASS" starttime="20220505 10:20:47.214" endtime="20220505 10:20:47.214"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=https://www.google.com/</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220505 10:20:47.214" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20220505 10:20:47.214" endtime="20220505 10:20:58.202"/>
+</kw>
+<status status="PASS" starttime="20220505 10:20:47.214" endtime="20220505 10:20:58.202"/>
+</test>
+<status status="PASS" starttime="20220505 10:20:46.903" endtime="20220505 10:20:58.202"/>
+</suite>
+<status status="PASS" starttime="20220505 10:20:46.871" endtime="20220505 10:20:58.202"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Selenium Suite">Selenium Suite</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Demo1 Suite">Selenium Suite.Demo1 Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
